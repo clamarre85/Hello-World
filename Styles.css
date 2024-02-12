@@ -1,0 +1,20 @@
+tr {
+border: 2px solid black;
+padding: 30px;
+}
+body{
+ background-color: rgb(81,172,180);
+}  
+/* background-image: background-image:url("/images/batman.png"); */
+
+h1{
+    color: rgb(16, 17, 16);
+    text-align: center;
+     background-color: rgb(182, 198, 39); 
+    
+   }
+   
+        p{
+            font-size: 60;
+            
+        }
