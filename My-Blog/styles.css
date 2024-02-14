@@ -12,13 +12,13 @@ header nav ul {
   
   header nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #151414;
     font-weight: bold;
   }
   
   footer {
     background-color: #6a1b9a;
-    color: #ffffff;
+    color: #141415;
     text-align: center;
     padding: 1em 0;
   }
@@ -39,7 +39,7 @@ header nav ul {
   }
   main {
     margin: 20px;
-    background-color: #ffffff;
+    background-color: #b9b0b0;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
