@@ -3,7 +3,7 @@ body {
 }
 
 footer {
-    background-color: white;
+    background-color: rgb(218, 174, 218);
     text-align:center;
     padding: 10px;
 }
@@ -11,7 +11,7 @@ footer {
 header {
 text-align: center;
 padding:10px;
-background-color: white;
+background-color: rgb(218, 174, 218);
 }
 
 header img {
@@ -23,18 +23,18 @@ header img {
 
 h1, 
 h2 {
-    color: #333;
+    color: #141616;
 }
 
 section {
-    margin: 20px;
+    margin: 10px;
 }
 
 .project {
     display: inline-block;
     width: 200px;
     height: 200px ;
-    border: 1px solid white;
+    border: 1px solid black;
     margin: 10px;
     text-align: center;
     line-height: 200px;
@@ -42,7 +42,7 @@ section {
 
 #bio, 
 #work {
-    background-color: white;
+    background-color: rgba(233, 228, 232, 0.849);
     padding: 15px;
 }
 
