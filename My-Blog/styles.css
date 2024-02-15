@@ -1,0 +1,46 @@
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    padding: 0 15px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #151414;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #6a1b9a;
+    color: #141415;
+    text-align: center;
+    padding: 1em 0;
+  }
+  article {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+  }
+  
+  article h2 {
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  article p {
+    color: #666666;
+    line-height: 1.6;
+  }
+  main {
+    margin: 20px;
+    background-color: #b9b0b0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
