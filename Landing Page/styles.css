@@ -7,7 +7,7 @@ text-align: center;
 }
 
 header{
-background-image: url("/Landing Page/images/layout.jpg");
+background-image: url("landing-page/images/layout.jpg");
 color: white;
 background-size: cover;
 padding: 50px 20px;
