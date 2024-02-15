@@ -1,47 +1,49 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  footer {
-    background-color: #c716b2;
-    text-align: center;
+}
+
+footer {
+    background-color: rgb(218, 174, 218);
+    text-align:center;
     padding: 10px;
-  }
-  
-  header {
-    text-align: center;
-    padding: 10px;
-    background-color: #c716b2;
-  }
-  
-  header img {
+}
+
+header {
+text-align: center;
+padding:10px;
+background-color: rgb(218, 174, 218);
+}
+
+header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-bottom: 10px;
-  }
-  
-  h1,
-  h2 {
-    color: #333;
-  }
-  
-  section {
-    margin: 20px;
-  }
-  
-  .project {
+}
+
+h1, 
+h2 {
+    color: #141616;
+}
+
+section {
+    margin: 10px;
+}
+
+.project {
     display: inline-block;
     width: 200px;
-    height: 200px;
-    border: 1px solid #ccc;
+    height: 200px ;
+    border: 1px solid black;
     margin: 10px;
     text-align: center;
     line-height: 200px;
-  }
-  
-  #bio,
-  #work {
-    background-color: #e9e9e9;
+}
+
+#bio, 
+#work {
+    background-color: rgba(233, 228, 232, 0.849);
     padding: 15px;
-  }
+}
+
+

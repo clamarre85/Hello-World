@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>
+Clamarre.ca
+</title>
+</head>
+<body>
+<h1> Welcome to a new year 2024!</h1>
+<p> Hello and thanks for coming to my page. Its a brand new year and 2024 will be better than the last. </h1>
+<h2>New Year, New Resulotion</h2>
+- health and wellness<br>
+- exercise <br>
+- education<br>
+- travel<br>
+<br>
+please check out my link to travel <a href="https://www.travelocity.ca">http://www.travelocity.ca</a>
+
+</body>
+<html/>
