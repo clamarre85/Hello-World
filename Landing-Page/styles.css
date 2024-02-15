@@ -2,13 +2,13 @@ body {
 font-family: Arial, Helvetica, sans-serif;
 margin: 0;
 padding: 0;
-background-color: #f4f8fb;
+background-color: #e7ebee;
 text-align: center; 
 }
 
 header{
-background-image: url("landing-page/images/layout.jpg");
-color: white;
+background-image: url("/Landing-Page/images/layout.jpg");
+color: rgb(11, 11, 11);
 background-size: cover;
 padding: 50px 20px;
 background-position: center;
