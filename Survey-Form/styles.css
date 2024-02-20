@@ -3,6 +3,61 @@
     padding: 0;
 }
 body{
-    background-image: url(/Survey\ Form/Caribbean-Beaches-1024x768.jpg);
+    background-image: url(survey-forms/);
     background-size: cover;
+    background-attchment:fixed;
+}
+.heading {
+
+    text-align: center;
+    width:100px;
+    margin:auto;
+    margin-top: 100px;
+    background-color: rgb(140, 136, 136);
+    }
+    #head{
+font-size: 1.8cm;
+    }
+    #subheading{
+        font-size: 18px;
+        margin-top: 10px;
+
+    }
+    #content1{
+        width 90%;
+        margin: auto;
+    }
+    form{
+        background-color: rgba(0,0,0,1.8);
+        padding-top: 34px;
+        align-items: center;
+        display:flex;justify-content: center;
+        width:54%;
+        border-radius: 5px;
+        margin: auto;
+        margin-top: 10px;
+        padding-bottom: 60px;
+    }
+    form.box{
+        width:98.5% ;
+        height: 2.8cm;
+        position: relative;
+        bottom: 10px;
+        border: 0;
+        border-radius: 5px;
+    }
+    option1 select{
+        width: 98.5%;
+        height: 2.7cm;
+        position: relative;
+        bottom: 10px;
+        border-radius: 5px;
+        border: 0;
+    }
+
+    
+footer {
+    background-color: rgb(85, 83, 83);
+    text-align:center;
+    padding: 10px;
 }
