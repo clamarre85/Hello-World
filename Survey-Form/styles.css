@@ -3,50 +3,52 @@
     padding: 0;
 }
 body{
-    background-image: url(survey-forms/);
+    background: url(/Survey-Form/images/sun-2017536_640.jpg); 
     background-size: cover;
-    background-attchment:fixed;
+    background-attachment:fixed;
 }
-.heading {
-
+    .heading {
     text-align: center;
-    width:100px;
-    margin:auto;
+    width:850px;
+    margin: auto;
     margin-top: 100px;
-    background-color: rgb(140, 136, 136);
+    background-color: rgb(242, 187, 99);
     }
-    #head{
-font-size: 1.8cm;
+    .head {
+    font-size: 3.8cm;
     }
-    #subheading{
-        font-size: 18px;
-        margin-top: 10px;
+    .subheading {
+        font-size: 20px;
+        margin-top: 5px;
 
     }
-    #content1{
-        width 90%;
+    .content1 {
         margin: auto;
+        width: 50%;
+        height: 30px;
+        position: relative;
+        bottom: 18px;
     }
-    form{
-        background-color: rgba(0,0,0,1.8);
+    form {
+        background-color: rgb(242, 239, 237);
         padding-top: 34px;
         align-items: center;
-        display:flex;justify-content: center;
+        display: flex; justify-content: center;
         width:54%;
-        border-radius: 5px;
+        border-radius: 10px;
         margin: auto;
         margin-top: 10px;
-        padding-bottom: 60px;
+        padding-bottom: 530px;
     }
-    form.box{
+    form .box {
         width:98.5% ;
         height: 2.8cm;
         position: relative;
         bottom: 10px;
-        border: 0;
+        border: 2;
         border-radius: 5px;
     }
-    option1 select{
+    .option1 select {
         width: 98.5%;
         height: 2.7cm;
         position: relative;
@@ -54,7 +56,24 @@ font-size: 1.8cm;
         border-radius: 5px;
         border: 0;
     }
-
+    .content2 select {
+        width: 98.5%;
+        height: 125px;
+        position: relative;
+        bottom: 17px;
+    }
+    button {
+        width: 150px;
+        height: 30px;
+        position: relative;
+        top: 300px;
+        background-color: rgb(18, 68, 219);
+        border: none;
+        color: rgb(19, 19, 20);
+        margin: bottom 50px;
+        cursor: pointer; 
+    }
+    
     
 footer {
     background-color: rgb(85, 83, 83);
