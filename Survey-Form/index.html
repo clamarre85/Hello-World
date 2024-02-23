@@ -12,32 +12,41 @@
 <h2 id="subheading"> Welcome to my travel survey</h2>
 </div>        
   <form>
-    <div id="content1">
+      <div class="info">  
       <label>Name</label> <br><br>
       <input type="name" name="name" placeholder="Enter Your Name" class="box"> <br><br>
       <label>Email</label> <br><br>
       <input type="email" placeholder="Enter Your Email" class="box"> <br><br>    
-      
-        <label for="phone">Enter a phone number:</label>
-        <input type="tel" id="phone" name="phone"
-        placeholder="123-45-678"
+      <label>Enter phone number</label><br><br>
+      <input type="tel" id="phone" name="phone"
+        placeholder="123-455-678" class="box"
         pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-      
-    </div>
-      
-    <div id="optionl">
-      <select>
+      </div>
+  </form>
+     <br>
+     <br>
+   
+    <form>
+    <div class="questions"><br><br>
+      <p>What activities do you like to do while on vacation?</p><br>
+        <select id="dropdown" name="topic" class="form-control" required>
         <option name="Select Your choice">Select Your Choice</option>
-        <option value="Shopping">Shopping</option>
+        <option value="Shopping">Shopping</option> 
         <option value="Exploring">Exploring</option>
-        <option value="Cost">Cost</option>
-        <option value="Food">Food</option>
+        <option value="Cost">Meeting new people</option>
+        <option value="Food">Trying new Food</option>
         <option value="Other">Other</option>
       </select>
     </div>
   </div>
-       <label id="option2">
-      <select>
+    </form>
+  <br>
+  <br>
+  <br>
+  <form>
+       <div class="questions">
+        <p>What is your prefered destination?</p>
+      <select id="dropdown" name="topic" class="form control" required>
         <option name="Select Your choice">Select Your Choice</option>
         <option value="Beach">Beach</option>
         <option value="Mountains">Mountains</option>
@@ -46,22 +55,47 @@
       </select>
     </div>
   </div>
-  <br>
-  <br>
-  <br>
-    <label id="head1"> Would you recommend travelling to a friend?</label> <br><br>
-    <input type="radio" names="radio" class="larger"> Yes <br>
-    <input type="radio" names="radio" class="larger"> No <br>
-    <input type="radio" names="radio" class="larger"> Maybe <br>
-</div>
-<br>
-<br>
-<br>
-<label id="head2"></label>any comments or suggestions?</label> <br><br>
-  <textarea placeholder="Enter Your Comments Here..."></textarea>
-<button><h3>Submit</h3></button>  
 </form>
-</body>        
+<form>
+    <div class="questions">
+    <p>What is most important to you while travelling</p>
+    <select id="dropdown" name="topic" class="form control" required>
+      <option name="Select Your choice">Select Your Choice</option>
+      <option value="Beach">Cost</option>
+      <option value="Mountains">Sight seeing</option>
+      <option value="Jungle">Culture</option>
+      <option value="City">Climate</option>
+    </form>
+  <br>
+  <br>
+  <br>
+    <form>
+      <style>
+        div {
+          width:300px;
+          margin:auto;
+        }
+        </style>
+      <div class="questions">
+      <p>Would you like to fly to your destination?</p><br><br>
+    
+      <input type="radio" names="radio" class="larger"> Yes <br>
+      <input type="radio" names="radio" class="larger"> No <br>
+      <input type="radio" names="radio" class="larger"> Maybe <br>
+</div>
+</form>
+<br>
+<br>
+<br>
+<form>
+<label id="head2"></label>
+<p>Any comments or suggestions?</p> <br><br>
+  <textarea placeholder="Enter Your Comments Here..."></textarea><br><br>
+<input type="button" value="Submit">
+</form>
+
+</body>
+
     <footer>
       <p>&copy 2024 Travel Form</p>
     </footer>    

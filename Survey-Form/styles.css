@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 body{
     background: url(/Survey-Form/images/sun-2017536_640.jpg); 
@@ -9,10 +9,10 @@ body{
 }
     .heading {
     text-align: center;
-    width:850px;
+    width:"850";
     margin: auto;
     margin-top: 100px;
-    background-color: rgb(242, 187, 99);
+    background-color: rgba(242, 187, 99, 0.012);
     }
     .head {
     font-size: 3.8cm;
@@ -22,61 +22,67 @@ body{
         margin-top: 5px;
 
     }
-    .content1 {
+    .info {
         margin: auto;
-        width: 50%;
-        height: 30px;
+        width: "35";
+        height: "2";
         position: relative;
         bottom: 18px;
     }
     form {
-        background-color: rgb(242, 239, 237);
+        background-color: rgba(242, 239, 237, 0.329);
         padding-top: 34px;
         align-items: center;
         display: flex; justify-content: center;
-        width:54%;
+        width: "600";
+        height: "100";
         border-radius: 10px;
         margin: auto;
         margin-top: 10px;
-        padding-bottom: 530px;
+        padding-bottom: 30px;
     }
     form .box {
-        width:98.5% ;
-        height: 2.8cm;
+        width: "98" ;
+        height: "300";
         position: relative;
-        bottom: 10px;
-        border: 2;
-        border-radius: 5px;
+        bottom: 150%;
+        border: 10px;
+        border-radius: 10px;
     }
-    .option1 select {
-        width: 98.5%;
-        height: 2.7cm;
-        position: relative;
-        bottom: 10px;
-        border-radius: 5px;
-        border: 0;
-    }
-    .content2 select {
-        width: 98.5%;
-        height: 125px;
-        position: relative;
+    
+    .questions select {
+        width: "98.5";
+        height: "50";
+        position: center;
         bottom: 17px;
+        border-radius: 10px;
+        border: 10px;
     }
+
+.head2 select{
+    width: "98.5";
+    height: "2.7";
+    position: center;
+    bottom: 10px;
+    border-radius: 10px;
+    border: 10px;
+}
     button {
-        width: 150px;
-        height: 30px;
+        width: "20";
+        height: "30";
         position: relative;
-        top: 300px;
-        background-color: rgb(18, 68, 219);
-        border: none;
+        top: 50px;
+        background-color: rgb(49, 56, 55);
         color: rgb(19, 19, 20);
-        margin: bottom 50px;
-        cursor: pointer; 
+        margin: bottom 10px;
+        cursor: pointer;
+        border-radius: 10px; 
     }
     
     
 footer {
-    background-color: rgb(85, 83, 83);
+    background-color: rgba(85, 83, 83, 0.428);
     text-align:center;
     padding: 10px;
+    border-radius: 10px;
 }
