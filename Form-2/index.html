@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Feedback Survey Form</h1>
+    <form>
+    <div class="info">  
+      <label>Name</label> <br><br>
+      <input type="name" id="name" name="name" placeholder="Enter Your Name" class="box"> <br><br>
+      <label>Email</label> <br><br>
+      <input type="email" placeholder="Enter Your Email" class="box"> <br><br>    
+      <label>Age</label><br><br>
+      <input type="age" name="Age" placeholder="Enter Your Age"/>
+      </div>
+      
+      <p>Type of Feedback:</p>
+      <select id="feedback_type" name="feedback_type" required><br>        <option name="Select Your choice">Select Your Choice</option>
+        <option value="positive">positive</option><br>
+       <option value="negative">negative</option><br>
+       <option value="so-so">so-so</option><br><br>
+       </select>
+        <br><br>
+
+      <label for="Services_Used">Services Used:</label><br>      
+      <input type="checkbox" id="services1" 
+      name="services1" value="service 1">
+      <label for="services1" >Services 1</label><br>
+      <input type="checkbox" id="services 2" 
+      name="service2" value="services 2">
+      <label for="services2" >Services 2</label><br>
+      <input type="checkbox" id="services 3" 
+      name="service3" value="services 3">
+      <label for="services3" >Services 3</label><br><br><br>
+
+
+      <label for="Additional_Comments">Additional Comments:</label><br>
+      <textarea name="comments" id="comments" cols="70" rows="10">
+    </textarea><br><br>
+      
+     
+      <input type="submit" value="Submit">
+    
+    </form>
+   </body>
+</html>
