@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formbody">
+        <h1 id="title">WDE training</h1>
+        <p id="description" class="description text-center">
+          Feedback Survey
+        </p>
+        <br>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter name" required />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter email address" required />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number">Employee Number<span class="num"></span></label>
+            <input type="number" name="number" id="number" min="1000" max="7000" class="form-control" placeholder="Enter Employee number" />
+          </div>
+          <div class="form-group">
+            <p>Which option best describes your progress?</p>
+            <select id="dropdown" name="topic" class="form-control" required>
+              <option disabled selected value>Completed till...(select option)</option>
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="js">Javascript</option>
+              <option value="react">React</option>
+            </select>
+          </div>
+      
+          <div class="form-group">
+            <p>How satisfied are you with the training session?</p>
+            <label>
+              <input name="user-recommend" value="satisfied" type="radio" class="input-radio" checked />Satisfied</label>
+            <label>
+              <input name="user-recommend" value="neutral" type="radio" class="input-radio" />Neutral</label>
+      
+            <label><input name="user-recommend" value="unsatisfied" type="radio" class="input-radio" />Unsatisfied</label>
+          </div>
+      
+          <div class="form-group">
+            <p>
+              What would you like to see improved?
+              <span class="clue">(Select applicable options)</span>
+            </p>
+      
+            <label><input name="prefer" value="suggestions" type="checkbox" class="input-checkbox" />Quality of Assignments</label>
+            <label>
+              <input name="prefer" value="resources" type="checkbox" class="input-checkbox" />Resources</label>
+            <label><input name="prefer" value="duration" type="checkbox" class="input-checkbox" />Duration of sessions</label>
+            <label><input name="prefer" value="scope" type="checkbox" class="input-checkbox" />Scope of syllabus</label>
+            <label><input name="prefer" value="faster-pace" type="checkbox" class="input-checkbox" />Pace should be faster</label>
+            <label><input name="prefer" value="slower-pace" type="checkbox" class="input-checkbox" />Pace should be slower</label>
+            <label><input name="prefer" value="additional-courses" type="checkbox" class="input-checkbox" />Additional Courses</label>
+          </div>
+      
+          <div class="form-group">
+            <p>Feedback</p>
+            <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+</body>
+</html>
