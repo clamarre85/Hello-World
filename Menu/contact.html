@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+   
+</head>
+
+<style>
+    body {
+      background-image: url('/Menu/images/contact-us-4193637_640.jpg');
+      background-repeat: no-repeat;
+      background-position: ;
+     background-color: rgba(255, 228, 196, 0.364);
+      
+    }
+    </style>
+    <div id="ContactUs">
+    <h1>Contact Us</h1>
+    <form action="#">
+        <div class="form-shape">
+            <label for="questions">
+                Select Issue
+            </label> <br><br>
+            <select name="myQuery" id="query">
+                <option value="sel" selected>
+                    Select
+                </option>
+                <option value="ord">
+                    Order Issues
+                </option>
+                <option value="Site">
+                    Site Issues
+                </option>
+                <option value="fed">
+                    Complaint 
+                </option>
+                <option value="others">
+                    Other
+                </option>
+            </select>  
+         </div>
+         <br><br>
+
+         <div class="form-shape">
+            <label for="Email">Enter your Email:</label><br><br>
+            <input type="Email" name="Email"
+            id="Email"
+            placeholder="Enter your Email">
+         </div> <br><br>         
+
+            <div class="form-shape">
+            <label for="Phonenumber">Enter your Phone Number:</label><br><br>
+                <input type="phone" name="myphone"
+            id="pho"
+            placeholder="Enter Your Phone Number">
+        </div><br><br>
+
+        <div id="radio">
+            Are you a member of Good Foods:
+            Yes <input type="radio" name="eligible">
+            No <input type="radio" name="eligible">
+        </div><br><br>
+
+        <div class="form-shape">
+            <label for="message">
+                Please describe your concerns.
+            </label><br><br>
+            <textarea name="msg" id="message"
+            cols="30" rows="10">
+        </textarea>
+        </div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</div>
+    
+</body>
+</html>
